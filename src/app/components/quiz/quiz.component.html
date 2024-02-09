@@ -1,6 +1,6 @@
 <div class="quiz-container">
   <div class="quiz-logo">
-    <img src="" alt="">
+    <img src="" alt="" />
     <h3>{{ title }}</h3>
   </div>
 
@@ -9,8 +9,12 @@
   </div>
 
   <div class="quiz-options">
-    <button class="button-options">
-      option
+    <button
+      *ngFor="let option of selectedQuestion.options; let i = index"
+      class="button-options"
+      (click)="pressedButton(option.alias)"
+    >
+      {{ option.name }}
     </button>
   </div>
 
