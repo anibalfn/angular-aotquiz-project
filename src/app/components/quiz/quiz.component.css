@@ -1,10 +1,9 @@
 .quiz-container {
-  width: 80%;
+  width: 60%;
   margin: auto;
-  margin-top: 20px;
   padding: 10px;
-  font-family: 'Protest Guerrilla', sans-serif;
-  font-size: x-large;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: xx-large;
 
 }
 
@@ -13,7 +12,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .quiz-logo > h3 {
@@ -45,22 +43,22 @@
 .button-options {
   background-color: #695e5e;
   border-radius: 8px;
-  border: 4px outset #d61313;
+  border: 4px outset #263a2e;
   width: 50%;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
   margin: 3px;
-  font-size: 18px;
-  padding: 16px 31px;
+  font-size: 25px;
+  padding: 40px 40px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #2F6627;
-  font-family: 'Protest Guerrilla', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .button-options:hover {
-  background-color: #d61313;
+  background-color: #313d35;
 }
 
 .button-options:active {

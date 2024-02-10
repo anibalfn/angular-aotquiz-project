@@ -8,13 +8,8 @@
 }
 
 body {
-    /* Define a imagem como plano de fundo */
-    background-image: url('./assets/imgs/aot-giphy-ezgif.com-resize.gif');
-
-  /* Define o tamanho do plano de fundo (opcional) */
+  background-image: url("./assets/imgs/aot-giphy.gif");
   background-size: cover;
-
-  /* Define a posição do plano de fundo (opcional) */
   background-position: center;
 
   background-color: black;
