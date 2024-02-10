@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import quiz_questions from "../../../assets/data/quiz_questions.json";
+
 @Component({
   selector: 'app-quiz',
   templateUrl: './quiz.component.html',

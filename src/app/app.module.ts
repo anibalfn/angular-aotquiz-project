@@ -5,12 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuizComponent } from './components/quiz/quiz.component';
 import { HomeComponent } from './pages/home/home.component';
+import { AudioplayerComponent } from './components/audioplayer/audioplayer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuizComponent,
-    HomeComponent
+    HomeComponent,
+    AudioplayerComponent
+  ],
+  exports: [
+    AudioplayerComponent
   ],
   imports: [
     BrowserModule,

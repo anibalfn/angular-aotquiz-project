@@ -16,4 +16,6 @@ body {
 
   /* Define a posição do plano de fundo (opcional) */
   background-position: center;
+
+  background-color: black;
 }
