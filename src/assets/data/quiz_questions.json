@@ -1,55 +1,176 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Quem é você em Shingeki no Kyojin?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Qual é a sua motivação principal?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Proteger meus entes queridos", "alias":"HR"},
+        {"id": 2, "name":"Descobrir a verdade", "alias":"HZ"},
+        {"id": 3, "name":"Vingança", "alias":"RB"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Qual é o seu estilo de luta preferido?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Combate direto", "alias":"EY"},
+        {"id": 2, "name":"Combate à distância", "alias":"SB"},
+        {"id": 3, "name":"Estratégico", "alias":"ES"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "O que você valoriza mais em um companheiro de equipe?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Lealdade", "alias":"MA"},
+        {"id": 2, "name":"Inteligência", "alias":"AA"},
+        {"id": 3, "name":"Força", "alias":"LA"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Como você reage sob pressão?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Mantenho a calma e penso estrategicamente", "alias":"HZ"},
+        {"id": 2, "name":"Ajo impulsivamente", "alias":"JK"},
+        {"id": 3, "name": "Busco orientação de líderes", "alias": "CS"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Qual é sua abordagem em situações de risco?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Corro para a ação sem hesitação", "alias":"AL"},
+        {"id": 2, "name":"Analiso a situação antes de agir", "alias":"MB"},
+        {"id": 3, "name":"Confio em meus instintos", "alias":"Y"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "O que você faria se descobrisse um segredo perigoso?",
+      "options":[
+        {"id": 1, "name":"Manteria o segredo para proteger as pessoas", "alias":"BH"},
+        {"id": 2, "name":"Revelaria o segredo para buscar justiça", "alias":"EY"},
+        {"id": 3, "name":"Usaria o segredo em benefício próprio", "alias":"ZY"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Qual é sua opinião sobre sacrificar alguns para salvar muitos?",
+      "options":[
+        {"id": 1, "name":"Eu faria isso sem hesitar", "alias":"ES"},
+        {"id": 2, "name":"Eu lutaria para encontrar uma solução alternativa", "alias":"LA"},
+        {"id": 3, "name":"Eu nunca sacrificaria ninguém", "alias":"AA"}
+      ]
+    },
+    {
+      "id":8,
+      "question": "Como você lida com suas emoções em momentos de crise?",
+      "options":[
+        {"id": 1, "name":"Eu mantenho minhas emoções sob controle", "alias":"HR"},
+        {"id": 2, "name":"Eu as expresso abertamente", "alias":"SB"},
+        {"id": 3, "name":"Eu as uso como motivação para agir", "alias":"EY"}
+      ]
+    },
+    {
+      "id":9,
+      "question": "Qual é a sua maior motivação na vida?",
+      "options":[
+        {"id": 1, "name":"Proteger meus entes queridos a todo custo", "alias":"MA"},
+        {"id": 2, "name":"Buscar vingança por injustiças sofridas", "alias":"EY"},
+        {"id": 3, "name":"Descobrir a verdade por trás dos segredos do mundo", "alias":"AA"}
+      ]
+    },
+    {
+      "id":10,
+      "question": "Como você se sente em relação aos titãs?",
+      "options":[
+        {"id": 1, "name":"Eu os odeio com toda a minha alma", "alias":"LA"},
+        {"id": 2, "name":"Eu tenho compaixão por eles, apesar de tudo", "alias":"Y"},
+        {"id": 3, "name":"Eu vejo-os como inimigos que precisam ser destruídos", "alias":"RB"}
+      ]
+    },
+    {
+      "id":11,
+      "question": "O que você faria se descobrisse que seu mundo é maior do que você imaginava?",
+      "options":[
+        {"id": 1, "name":"Ficaria chocado, mas aceitaria e buscaria aprender mais", "alias":"HR"},
+        {"id": 2, "name":"Ficaria determinado a explorar esse mundo novo", "alias":"SB"},
+        {"id": 3, "name":"Ficaria desconfiado e tentaria encontrar respostas imediatamente", "alias":"CS"}
+      ]
+    },
+    {
+      "id":12,
+      "question": "Qual é sua opinião sobre sacrificar a própria humanidade por um bem maior?",
+      "options":[
+        {"id": 1, "name":"Nunca sacrificar minha humanidade, não importa o motivo", "alias":"JK"},
+        {"id": 2, "name":"Se for para proteger aqueles que amo, estou disposto a fazer qualquer coisa", "alias":"AL"},
+        {"id": 3, "name":"Acredito que a humanidade já está perdida de qualquer maneira", "alias":"BH"}
+      ]
+    },
+    {
+      "id":13,
+      "question": "Como você lida com o peso das responsabilidades?",
+      "options":[
+        {"id": 1, "name":"Eu as aceito e carrego-as com orgulho", "alias":"ES"},
+        {"id": 2, "name":"Eu as vejo como um fardo pesado, mas necessário", "alias":"MB"},
+        {"id": 3, "name":"Eu as evito sempre que possível", "alias":"HZ"}
+      ]
+    },
+    {
+      "id":14,
+      "question": "O que você valoriza mais em um líder?",
+      "options":[
+        {"id": 1, "name":"Coragem e determinação", "alias":"EY"},
+        {"id": 2, "name":"Inteligência e estratégia", "alias":"ZY"},
+        {"id": 3, "name":"Empatia e compaixão", "alias":"AA"}
+      ]
+    },
+    {
+      "id":15,
+      "question": "Como você lida com a perda de alguém querido?",
+      "options":[
+        {"id": 1, "name":"Eu uso minha dor como motivação para lutar ainda mais", "alias":"EY"},
+        {"id": 2, "name":"Eu permito-me sentir a dor, mas encontro força na lembrança da pessoa", "alias":"MA"},
+        {"id": 3, "name":"Eu busco conforto nos outros e tento encontrar significado na tragédia", "alias":"AA"}
+      ]
+    },
+    {
+      "id":16,
+      "question": "Como você se sente em relação à liberdade?",
+      "options":[
+        {"id": 1, "name":"Eu valorizo a liberdade, mas entendo que há limites", "alias":"LA"},
+        {"id": 2, "name":"A liberdade é um direito fundamental que deve ser protegido a todo custo", "alias":"MA"},
+        {"id": 3, "name":"Acredito que todos devem ter liberdade absoluta, custe o que custar", "alias":"EY"}
+      ]
+    },
+    {
+      "id":17,
+      "question": "Como você lida com o sentimento de vingança?",
+      "options":[
+        {"id": 1, "name":"Eu tento superar o desejo de vingança e focar no que é mais importante", "alias":"MA"},
+        {"id": 2, "name":"Eu considero a vingança, mas tento encontrar uma maneira mais pacífica de resolver as coisas", "alias":"AA"},
+        {"id": 3, "name":"Eu sou consumido pela vingança e luto incansavelmente por ela", "alias":"EY"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "HR": "Você é Historia Heiss!",
+    "HZ": "Você é Hange Zoe",
+    "RB": "Você é Reiner Braun",
+    "EY": "Você é Eren Yeager",
+    "SB": "Você é Sasha Blouse",
+    "MA": "Você é Mikasa Ackermann",
+    "AA": "Você é Armin Arlett",
+    "LA": "Você é Levi Ackermann",
+    "JK": "Você é Jean Kirstein",
+    "CS": "Você é Connie Springer",
+    "AL": "Você é Annie Leonhart",
+    "MB": "Você é Marco Bodt",
+    "Y":  "Você é Ymir",
+    "ZY": "Você é Zeke Yeager",
+    "BH": "Você é Bertholdt Hoover",
+    "ES": "Você é Erwin Smith"
   }
 }

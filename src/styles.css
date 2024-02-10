@@ -7,6 +7,13 @@
   color: antiquewhite;
 }
 
-/* body {
-  background-color: #000000;
-} */
+body {
+    /* Define a imagem como plano de fundo */
+    background-image: url('./assets/imgs/aot-giphy-ezgif.com-resize.gif');
+
+  /* Define o tamanho do plano de fundo (opcional) */
+  background-size: cover;
+
+  /* Define a posição do plano de fundo (opcional) */
+  background-position: center;
+}
